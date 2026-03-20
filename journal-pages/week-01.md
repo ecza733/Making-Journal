@@ -19,17 +19,17 @@ reveals about the people behind it.
 
 **My teams data portrait**
 
-![alt text](1.jpg)
-![alt text](1-1.jpg)
+![alt text](../assets/week-01/1-1.jpg)
+![alt text](../assets/week-01/1.jpg)
 
 **Another groups data portrait**
 
-![alt text](1-2.jpg)
-![alt text](1-3.jpg)
+![alt text](../assets/week-01/1-2.jpg)
+![alt text](../assets/week-01/1-3.jpg)
 
 **Our observations on their data**
 
-![alt text](1-4.jpg)
+![alt text](../assets/week-01/1-4.jpg)
 
 **Reflection**
 After interpretting the other groups data portrait, we realised that our approach was not very effective and our symbols were too vague. I liked the way the other group drew clear symbols that represented their data, and was easy to analyse. However, we could not defrinciate from person to person compared to our group, which each individual used a singular colour.
@@ -44,14 +44,14 @@ I chose to observe what apps I went on my phone at what time, and how I felt emo
 ### Step 2: Collect data by hand
 I collected my data in a small note book over the course of 4 days. To make the data less chaotic I focused on the main apps (not apps like clock or photos app etc).
 
-![alt text](IMG_0432-1.jpeg)
+![alt text](../assets/week-01/IMG_0432.jpeg)
 
 ### Step 3: Design your visualisation
 After the collection period, I created a data drawing on one side of A4 card.I invented a personal visual language: using colour, shape, and position to encode different aspects of my data. On the reverse side, I drew a 
 legend that explains my visual system.
-![alt text](IMG_0434-1.jpeg)
-![alt text](IMG_0435-1.jpeg)
 
+![alt text](../assets/week-01/IMG_0434.jpeg)
+![alt text](../assets/week-01/IMG_0435.jpeg)
 
 ### Reflection
 
@@ -75,6 +75,3 @@ I think this data collection made me really realise how much I use my phone, as 
 
 This project related to data humanism and the *Dear Data* project, as it observes and documents not just numbers, but feelings. It is Human-Centric Data Representation: data that represents me and my experience, and involves interpreting data in a way that considers the emotional implications.
 
-## AI Usage Statement
-
-*Document any use of AI tools under an AI Usage Statement heading. Explain which tools you used and describe how you used them. Reference any AI-generated content (see [QuickCite](https://auckland.libguides.com/referencing-generative-ai-tools) for guidance).*
