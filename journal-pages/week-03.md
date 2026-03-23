@@ -11,41 +11,65 @@ layout: default
 
 ### Activity 1: Explore with cURL
 
-Using your terminal and the documentation / GitHub repos for wttr.inLinks to an external site. and the Free Dictionary APILinks to an external site., try to figure out how to:
+For this activity we used the terminal to experiment with accessing live data from online sources. At first this felt quite confusing, as I had never used the terminal in this way before, but after trying a few different commands it started to make more sense. It felt a bit like talking directly to the internet and requesting specific information.
 
-Get the weather for a location using its GPS coordinates
-Get the weather in a different language
-Get the current moon phase
-Look up the synonyms and antonyms of a word
-Find something else in the documentation that we haven't covered
+Some of the things I was able to explore included:
+
+Getting the weather for a location using coordinates
+Viewing the weather in a different language
+Finding the current moon phase
+Looking up synonyms and antonyms of a word
+
+It was interesting to see how quickly information could be retrieved in a structured format. I realised that APIs are essentially a way for programs to communicate with each other, and that designers can use this data creatively rather than just displaying numbers.
+
+This activity helped me understand that data is not just something static, it can be live, responsive, and constantly updating.
 
 ### Activity 2: Weather Visualisation
 
-Open the demo sketchLinks to an external site. in the p5.js web editor. This sketch uses the Open-Meteo APILinks to an external site. to fetch current weather data for Auckland and map it to visual properties.
+For this activity we opened a demo sketch in the p5.js editor that used live weather data. The sketch automatically retrieved weather information and translated it into visual elements on the screen.
 
-Experiment with the sketch:
+I experimented by changing the location from Auckland to another city, and I noticed that the visual output changed depending on the weather conditions. This helped me understand how data values can be mapped to visual properties.
 
-Change the latitude and longitude to a different city and observe how the sketch changes.
-Use the data to control different visual properties: colour, position, size, number of shapes.
-Add more weather variables from the Open-Meteo documentationLinks to an external site. to the API URL.
-Try using random() or noise() alongside or instead of the live data.
-Use vibe coding to try something more ambitious.
-Use print() in the console to check the range and scale of values before trying to visualise them.
+Some of the changes I experimented with included:
+
+Changing the colour of shapes based on temperature
+Adjusting the size of shapes depending on wind speed
+Increasing the number of shapes when humidity was higher
+Using random() to create more variation in movement
+
+Using print() in the console was also helpful, as it allowed me to see the exact range of values before trying to visualise them. This made the mapping process feel more intentional rather than random.
+
+Overall, this activity helped me understand how live data can be turned into something visual and expressive, rather than just numerical.
 
 ### Activity 3: Design and Execute a Data Protocol
 
-In pairs, design a data protocol: a set of rules for translating a live data source. This is the analogue equivalent of an API: a defined set of rules for requesting and receiving data.
+For this activity we worked in pairs to create a data protocol — a set of instructions that translates live data into physical marks or actions.
 
-Your protocol must specify:
+Our Data Protocol
 
-Source: what live data to observe (e.g. sounds in the room, a live transport tracker on your phone)
-Frequency: how often to check (e.g. every 10 seconds, every minute)
-Mapping: how to record each observation as a mark, shape, or action
-Write your protocol as a clear set of instructions on a sheet of paper. Someone who wasn't in your pair should be able to follow them without explanation.
+Source:
+Sounds in the classroom (talking, movement, or noise)
 
-Swap your protocol with another pair and follow their instructions for 10 minutes. Don't ask any clarifying questions, just interpret the rules as written.
+Frequency:
+Every 10 seconds
 
-When time is up, compare your output with what the designers intended. Did you interpret the rules as they expected? Where was the protocol ambiguous? What surprised you about the result?
+Mapping:
+
+If the room was quiet → draw a small circle
+If there was talking → draw a medium circle
+If there was loud noise → draw a large circle
+Each new observation was drawn next to the previous one
+The drawing continued for 10 minutes
+
+We wrote these instructions clearly on a sheet of paper so that another group could follow them without asking questions.
+
+After designing our protocol, we swapped instructions with another pair and followed their rules. It was interesting to see how different groups interpreted the same instructions slightly differently.
+
+Some parts of the protocol were more ambiguous than we expected. For example, what one person considered “loud” was different from someone else’s interpretation. This showed me how important clarity and precision are when designing rule-based systems.
+
+This activity reminded me of the work of Sol LeWitt and Conditional Design, where instructions are used as a creative tool. Instead of designing a finished image, we designed a process that generated the image.
+
+I found it interesting how the final drawing became a record of time and activity in the room. The longer we followed the protocol, the more the drawing grew and changed. It felt less like a single artwork and more like a living system.
 
 ## Independent Study: Live Data Visualisation
 Overview
