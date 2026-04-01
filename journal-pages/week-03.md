@@ -113,4 +113,4 @@ Given more time, I would develop interactive layers or multimodal outputs to fur
 
 ## AI Usage Statement
 
-I used ChatGPT for prompting and brainstorming ideas for visual mappings, but experimentation, creative direction, and final visual design are my own work. AI was a supportive tool, not a substitute for my creative decisions.
+*I used ChatGPT for prompting and brainstorming ideas for visual mappings, but experimentation, creative direction, and final visual design are my own work. AI was a supportive tool, not a substitute for my creative decisions.*
