@@ -20,26 +20,19 @@ Both activities highlighted the practical and ethical trade-offs of AI. Local AI
 
 ## Independent Study: AI-Assisted Data Exploration
 
-Choose a public dataset about life in Aotearoa New Zealand and use cloud-based AI tools to explore, interpret, and represent the data. The challenge is to go beyond a single prompt, working through sustained dialogue with the AI, directing its decisions, and critically evaluating its outputs.
-
 ### Step 1: Find a Dataset
 
-Browse the open data catalogue at catalogue.data.govt.nzLinks to an external site. and find a dataset that interests you. Look for something with a downloadable CSV file that is small enough to upload into a cloud AI tool (aim for under 10MB, or a few thousand rows).
+For this project, I explored the New Zealand open data catalogue and selected a dataset from the Christchurch City Council:
 
-Choose something you find genuinely interesting. The data should relate to a real aspect of life in Aotearoa that you would want to explore further.
+Dataset: Recycling Collection Open Data
+Source: Christchurch City Council Open Data Portal
+Link: https://opendata-christchurchcity.hub.arcgis.com/datasets/ChristchurchCity::recycling-collection-opendata/explore
 
-My chosen data: https://opendata-christchurchcity.hub.arcgis.com/datasets/ChristchurchCity::recycling-collection-opendata/explore
+I chose this dataset because it represents an everyday system that most people interact with but rarely think about in detail. Recycling collection is a routine part of urban life, yet it reflects a complex infrastructure involving logistics, policy decisions, and environmental priorities.
 
 ### Step 2: Understand the Data
 
-Upload your CSV into a cloud AI tool (e.g. CoPilot, Gemini, NotebookLM, ChatGPT) and have a conversation about it. Ask the AI to explain what is in the dataset: what the columns mean, what the values represent, how much data there is, and what is missing or incomplete.
-
-Consider:
-
-What stories might this data contain?
-What questions could it answer?
-What biases or gaps are present?
-Who collected this data, and for what purpose?
+After uploading the dataset into ChatGPT, I explored its structure and meaning through a series of prompts.
 
 ![alt text](<../assets/week-04/Screenshot 2026-04-01 234058.png>)
 
@@ -59,36 +52,86 @@ Overall, this data was most likely collected by a local government or municipal 
 
 ### Step 3: Design Multiple Representations
 
-Ask the AI to produce a visualisation of the data, but don't accept the first output. Direct the AI: specify the form, the visual encoding, the audience, the story you want to tell. Iterate through at least three distinctly different representations of the same data. These could be code-based (e.g. p5.js or HTML), textual, visual, or even prompts for physical/analogue translations.
+My process of working with AI to generate visualisations was iterative and required active direction. The AI did not immediately produce a successful or meaningful output, which meant I had to refine both my prompts and expectations.
 
-For each version, make deliberate design decisions about what to change. You might vary the format (chart, map, interactive page, narrative text), the visual encoding (colour, size, position, shape), or what subset of the data to foreground.
+#### First Attempt: Code-Based Visualisation
+
+Initially, I asked ChatGPT to generate a coded visualisation. However, this approach was unsuccessful. The AI repeatedly produced errors in the code, and although I attempted to troubleshoot, it struggled to correctly interpret and fix its own mistakes.
+
+This revealed a limitation:
+
+AI can generate code, but debugging is less reliable, especially when context builds over multiple errors.
+It also showed that AI is not always effective for complex technical tasks without strong user oversight.
+
+Because of this, I shifted my strategy.
+
+Error Output:
+![alt text](<../assets/week-04/Screenshot 2026-04-02 123629.png>)
+
+#### Second Attempt: Basic Data Visualisation
+
+I simplified my prompt to: “produce a visualisation of the data.” This resulted in a basic chart showing recycling collections by day.
+
+Output:
+![alt text](../assets/week-04/recycling_by_day.png)
+What was interesting: The AI sorted days by highest frequency, rather than keeping the natural Monday–Friday order.
+
+Design limitation: The output was conventional and generic.
+It prioritised clarity but lacked creativity or narrative.
+It also produced this output:
+![alt text](<../assets/week-04/Screenshot 2026-04-02 140008.png>)
+
+#### Third Attempt: Creative Non-Graph Visual
+
+I then prompted: “create a visually creative and interesting visualization of the data without the use of simple graphs.”
+
+Output:
+![alt text](<../assets/week-04/ChatGPT Image Apr 2, 2026, 02_08_24 PM.png>)
+This produced a poster-style visual, which was much more engaging.
+What improved: Use of metaphor and storytelling, visually appealing layout, less reliance on standard chart formats
+
+What was missing: The actual data points were unclear and it communicated a theme (recycling system), not the specific dataset
+
+#### Fourth Attempt: Directed Refinement
+
+I gave more specific instructions:
+
+"I like the creative usage in this, but please use this but make it easier to understand the data points while keeping the unique visuals. Keep the colour theme to the colour of recycling bins."
+
+![alt text](<../assets/week-04/ChatGPT Image Apr 2, 2026, 02_14_41 PM.png>)
+This improved visual cohesion (green, blue, yellow bins), but still leaned toward generic recycling imagery rather than the dataset. 
+
+I loved ths visuals, but I wasn't showing the data points clearly, simply showing the 'recycling journey.' My next prompt was  "this is visually appealing but please show case the data points I have provided, eg. monday vs tuesday etc."
+
+![alt text](<../assets/week-04/ChatGPT Image Apr 2, 2026, 02_19_19 PM.png>)
+
+I am happy with this final visual, as I think I needed to be clearer on my prompting, and took AI a few tries to refine to my desired output. The process became less about “asking” and more about directing a design collaborator.
 
 ### Step 4: Critically Evaluate
 
-Look at the representations you've produced and reflect on the AI's design choices:
+Throughout the process, the AI consistently defaulted to familiar and conventional forms of data visualisation, particularly bar charts, simple layouts, and standard blue or green colour schemes. These outputs prioritised clarity and efficiency but lacked originality and did not fully engage with the uniqueness of the dataset. The AI also tended to generate generic titles and assume that the goal was to present straightforward quantitative comparisons, rather than exploring the data more creatively or contextually. This revealed how AI systems are often trained on dominant visual conventions, which can limit their ability to produce more experimental or interpretive designs without guidance.
 
-What did the AI default to? (e.g. bar charts, blue colour schemes, generic titles)
-What did you have to override or redirect?
-What assumptions did the AI make about the data or the audience?
-Which representation is the most interesting, and why?
-What would you do differently if you were building this without AI?
-Document Your Process
-To capture the full scope of your practice, each entry in the Making Journal must include a mix of visual and textual evidence, such as sketches, screenshots, GIFs, diagrams, process notes, instructions and reflections.
+To achieve more meaningful outputs, I had to actively override and redirect the AI’s decisions. This included specifying that I did not want traditional graphs, asking for more visually creative formats, and insisting that the final designs clearly communicate the actual data points rather than general recycling themes. I also guided the colour palette to align with familiar recycling bin colours, which helped create a stronger visual connection to the subject matter. Most importantly, I had to repeatedly push the AI to focus on the dataset itself, as it often drifted toward generic environmental imagery instead of representing the specific information I had provided.
 
-Items on the course Reading List for this week include the introduction to Data Feminism by Catherine D'Ignazio and Lauren F. Klein, and a talk by Kirikowhai Mikaere on Māori data sovereignty. Engage with both of these and draw on them in your reflections.
+The most successful representation was the final visual, which combined creative elements with clearer communication of the data. This version stood out because it balanced aesthetic appeal with informative content, using visual metaphors such as recycling bins to encode differences between days while still making the data understandable. It was more engaging than the initial chart while still allowing for meaningful comparisons, such as differences between Monday and Friday collections. This demonstrated the importance of iteration and refinement when working with AI, as the strongest outcome emerged only after multiple rounds of feedback and adjustment.
+
+If I were creating this visualisation without AI, I would approach the process differently by spending more time analysing and restructuring the dataset before designing a visual system. I would likely develop a more intentional mapping between data and visual elements, possibly incorporating geographic information or temporal changes over time. While AI allowed me to quickly explore multiple design directions, it also required constant correction, and I had to take on a strong editorial role to ensure the outputs were both accurate and meaningful.
 
 ### Reflection:
 
-What dataset did you choose, and why?
-How did AI tools help you understand the data? What did they miss?
-What design decisions did you make in directing the AI, and what did you learn from this process?
-How do the different representations of the same data change what a viewer might understand?
-What questions do D'Ignazio and Klein's ideas raise for your work with this dataset?
-How does Mikaere's framing of data as a strategic asset for Māori development challenge or inform how you think about the dataset you chose?
-What was your experience of working with AI as design tool?
-What would you develop further with more time?
-Any other reflections?
+I chose the Christchurch recycling collection dataset because it represents an everyday system that is often overlooked but plays an important role in shaping how people interact with sustainability practices. I was interested in how something as routine as bin collection could reveal underlying patterns in infrastructure and daily life. The dataset provided a structured way to explore these patterns, while also raising questions about how cities organise services and how those decisions influence behaviour.
 
+AI tools were helpful in building an initial understanding of the dataset, particularly in explaining the structure of the columns, identifying patterns such as the dominance of fortnightly collections, and highlighting inconsistencies or missing values. However, the AI tended to focus on surface-level interpretation and did not fully engage with the broader social or cultural implications of the data. It did not question why the data was structured in a particular way, nor did it address what might be missing, such as geographic or demographic information. This meant that while the AI was useful for technical understanding, deeper critical analysis still relied on my own interpretation.
+
+In directing the AI, I made several key design decisions, including moving away from standard graph formats, emphasising creative visual storytelling, and ensuring that the final output still clearly represented the data. I also chose to use recycling bin colours as a visual encoding strategy, which helped connect the design to the subject matter. Through this process, I learned that AI requires clear and specific instructions, and that effective use of AI involves iteration and refinement rather than expecting a perfect result from a single prompt. It also highlighted the importance of being able to critically evaluate and adjust AI outputs.
+
+The different representations of the dataset significantly changed how the information could be understood. The initial graph made patterns easy to identify but felt impersonal and conventional. The more creative visuals were engaging and visually interesting, but at times obscured the actual data. The final representation achieved a balance between these approaches, showing that the way data is presented can shape not only what information is visible, but also how it is interpreted and valued by an audience.
+
+The ideas presented by D’Ignazio and Klein in Data Feminism raise important questions about power, bias, and representation in data. Applying their perspective to this dataset highlights the absence of geographic and social context, which makes it difficult to assess issues such as equity in service provision. It prompts questions about whose needs are being prioritised and whose experiences are not captured. The dataset reflects institutional priorities, focusing on operational efficiency rather than community impact, which aligns with their argument that data is never neutral.
+
+Kirikowhai Mikaere’s discussion of Māori data sovereignty further challenges how this dataset is understood. By framing data as a strategic asset for Māori development, it raises questions about ownership, control, and benefit. The dataset is produced by a government authority and made publicly available, but it does not reflect Māori perspectives or priorities, nor does it indicate how the data might support Māori communities. This highlights a gap between the concept of open data and the need for culturally informed and community-driven data practices.
+
+Overall, my experience of working with AI as a design tool was both challenging and valuable. While the AI was capable of generating a wide range of outputs quickly, it often relied on generic patterns and required significant guidance to produce meaningful results. This reinforced the idea that AI should be used as a collaborative tool rather than an autonomous creator. With more time, I would develop the project further by incorporating additional layers of data, such as geographic distribution or environmental impact, and by creating a more refined and intentional visual system. This project ultimately demonstrated that data visualisation is not just about presenting information, but about making decisions that shape how that information is understood.
 
 ## AI Usage Statement
 
