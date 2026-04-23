@@ -5,7 +5,7 @@ title: Home
 
 # Making Journal for DES240
 
-*Write a short introduction about yourself and this course here. What are you hoping to learn and achieve? What's your background as a designer? What are your interests as a designer?*
+*Hello! My name is Emilie, and I am in my fourth year of Design and Commerce Marketing conjoint degree. My interests as a designer include 3D modeling, advertising, and photography. Currently I do not have much experience in coding, so I hope that by the end of the designing with data course I will be more confident in my skills, and make a well refined design project that I am proud of :)*
 
 ---
 
