@@ -10,7 +10,9 @@ layout: default
 
 ## 1. Concept Development
 Building on the initial Memory Archive concept from Week 6, I began thinking more carefully about how the environment itself could communicate the data. I wanted the project to feel less like a database and more like an explorable space where viewers could discover memories through movement and interaction.
-One of the challenges I encountered was balancing the amount of information contained within the dataset with the limitations of the project. HappyDB contains thousands of memories, but attempting to visualise all of them would make the project overwhelming and difficult to navigate. Instead, I continued refining my decision to curate approximately 50 memories from four categories: Family, Friends, Achievement, and Exercise.
+One of the challenges I encountered was balancing the amount of information contained within the dataset with the limitations of the project. 
+
+HappyDB contains thousands of memories, but attempting to visualise all of them would make the project overwhelming and difficult to navigate. Instead, I continued refining my decision to curate approximately 50 memories from four categories: Family, Friends, Achievement, and Exercise.
 I also started exploring how different attributes within the data could be represented visually. Rather than displaying raw numbers, I wanted the environment itself to become the visualisation. I developed a simple mapping system:
 
 - Colour = Memory category
@@ -91,6 +93,8 @@ At this stage the project had progressed from an abstract idea into an early Unr
 - Developed visual mapping system.
 - Experimented with multiple environment concepts.
 - Selected a circular archive space as the primary environment.
+
+
 #### Questions I was continuing to explore:
 - How should memories be represented visually?
 - How can interaction reveal data effectively?

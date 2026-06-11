@@ -65,12 +65,16 @@ Overall, this project challenged me both technically and conceptually. It pushed
 - Material and emissive design
 - Asset importing and environment construction
 - Interactive experience design
+
+
 #### Design Skills
 - Data curation and selection
 - Visual language development
 - Information hierarchy
 - Environmental storytelling
 - Interactive visualisation design
+
+
 #### Project Skills
 - Working with large datasets
 - Iterative experimentation

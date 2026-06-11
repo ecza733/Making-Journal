@@ -13,6 +13,7 @@ layout: default
 ### Data Source Audit
 
 For this project I decided to move away from my original proposal direction, which focused on anxiety and mental health. While I was interested in the topic, I struggled to identify a data source that would allow me to create an engaging interactive experience within the available timeframe. I found myself repeatedly thinking about how I would visualise anxiety in a way that felt meaningful rather than simply presenting statistics.
+
 Instead, I became interested in memory as a form of data. This connected strongly with my broader interests in storytelling, speculative design, identity, and emotional experiences. After researching potential datasets, I discovered HappyDB, a publicly available dataset containing over 100,000 happy memories submitted by participants. The dataset includes short written descriptions of positive life experiences alongside additional metadata such as age and emotional characteristics.
 
 ![alt text](<../assets/week-06/Screenshot 2026-06-11 164325.png>)

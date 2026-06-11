@@ -18,7 +18,7 @@ Rather than presenting data through charts or graphs, I wanted the archive to en
 
 #### I also refined the title of the project:
 
-*Happy Place | A Happiness Memory Archive*
+*Happy Place, A Happiness Memory Archive*
 
 This title felt more inviting and emotional than simply calling the project a memory database. It reinforced the idea that the archive was built from real human experiences rather than abstract information.
 
@@ -99,6 +99,8 @@ By the end of the week, the project had evolved from a static visual environment
 - User interface designed
 - Blueprint interaction system functioning
 - Multiple interactive memories implemented
+
+
 #### Remaining tasks:
 - Populate remaining memory orbs
 - Refine layout and composition
