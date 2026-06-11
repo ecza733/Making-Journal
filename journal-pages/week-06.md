@@ -94,11 +94,11 @@ My next step is to begin prototyping the archive environment within Unreal Engin
 ### Consultation Reflection
 Although my initial proposal focused on anxiety and mental health, reflecting on the project direction helped me realise that I was more interested in creating an experience centred around memory and emotional storytelling. The most useful insight from this process was recognising that not all datasets are equally suitable for interactive visualisation. While anxiety was conceptually interesting, I struggled to imagine a clear interactive form. In contrast, memory data immediately suggested opportunities for exploration, discovery, and interaction. This reflection helped me shift my focus toward creating a memory archive using HappyDB. As a result, I became more interested in how data can represent human experiences and emotions rather than simply communicating information. Moving forward, I plan to focus on creating an immersive environment that encourages curiosity and reflection.
 
-Technical Skill Building
+#### Technical Skill Building
 Because Unreal Engine was my highest-priority skill gap, I spent time learning the software and becoming familiar with its interface.
 Initially, I found Unreal Engine extremely overwhelming compared to programs I had used previously. The large number of tools, menus, and systems made it difficult to know where to begin. However, after following several beginner tutorials, I became more comfortable navigating the editor and creating simple scenes. This process helped me understand the basic workflow required for building the project and gave me confidence to begin creating a prototype environment.
 
-Initial Concept Sketch
+#### Initial Concept Sketch
 Using my planning sketches, I developed a more detailed concept showing how memories could exist as floating data objects within an archive environment.
 
 ![alt text](../assets/week-06/IMG_2816.jpeg)
